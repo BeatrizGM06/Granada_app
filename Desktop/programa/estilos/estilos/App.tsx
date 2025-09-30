@@ -4,7 +4,7 @@ import React from 'react'
 export default function App() {
   return (
     <View>
-      <View>
+      <View style={{marginTop:200,marginLeft:100}}>
         <Text>Boton 1</Text>
       </View>
       <View>
