@@ -8,7 +8,7 @@ export default function App() {
         <Text>Boton 1</Text>
       </View>
       <View>
-        <Text>Boton 2</Text>
+        <Text style={styles.contenedor}>Boton 2</Text>
       </View>
       <View>
         <Text>Boton 3</Text>
@@ -23,4 +23,9 @@ export default function App() {
   )
 }
 
-const styles = StyleSheet.create({})
+const styles = StyleSheet.create({
+  contenedor:{
+    marginTop:200,
+    marginLeft:100
+  }
+})
