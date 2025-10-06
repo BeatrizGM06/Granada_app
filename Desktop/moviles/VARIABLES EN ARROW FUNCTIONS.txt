@@ -1,0 +1,46 @@
+//guarda en variables (usando arrow functions) las siguientes funciones
+
+function(a,b,c,d){
+	return a+b+c+d
+}
+
+--
+
+const SumaNuevo = (a,b,c,d) => a+b+c+d
+
+---------
+
+function recorrer(lista){
+	for(let dato of lista){
+		console.log(dato)
+	}
+}
+
+--
+
+const RecorrerNuevo = (lista) => {
+	for(let dato of lista){
+		console.log(dato)
+	}
+}
+
+---------
+
+function mostrarPrimero(lista){
+	const datoPrimero = lista[0]
+	return datoPrimer0
+}
+
+--
+
+const mostrarPrimero2 = (lista) => {
+	const datoPrimero = lista[0]
+	return datoPrimero
+}
+
+const mostrarPrimero3 = (lista) => lista[0]
+
+---------
+
+// usa la variable creada en el primer ejercicio para sumar 2+6+3+9
+
