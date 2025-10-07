@@ -1,8 +1,8 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 import globalStyles from './styles/globalstyles'
-import { ScrollView } from 'react-native/types_generated/index'
 import { Image } from 'expo-image'
+import { ScrollView } from 'react-native'
 
 export default function App() {
   const COLOR_FONDO="#121212"
@@ -11,7 +11,7 @@ export default function App() {
   return (
     <View style={[globalStyles.contenedorPrincipal, {backgroundColor: COLOR_FONDO}]}>
       <ScrollView>
-        <Image source={".assets.granada.jpg"}></Image>
+        <Image source={".assets.granada.jpg"} contentFit='contain' style={[{width:"100%",height:250}]}></Image>
       </ScrollView>
     </View>
   )
