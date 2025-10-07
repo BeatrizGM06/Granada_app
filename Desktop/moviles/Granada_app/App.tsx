@@ -11,7 +11,25 @@ export default function App() {
   return (
     <View style={[globalStyles.contenedorPrincipal, {backgroundColor: COLOR_FONDO}]}>
       <ScrollView>
-        <Image source={".assets.granada.jpg"} contentFit='contain' style={[{width:"100%",height:250}]}></Image>
+        <Image source={require("./assets/granada_light.jpg")} contentFit='contain' style={[{width:"100%",height:250}]}></Image>
+        
+        <View style={[globalStyles.contenedorSecundario]}>
+          <Text style={[globalStyles.titulo,{color:COLOR_TITULO}]}>¿Qué hacer en Granada?</Text>
+          <ScrollView>
+            <ScrollView horizontal={true}>
+              <Image source={require("./assets/actividad1.jpg")} contentFit='contain' style={[globalStyles.fotoCarrusel]}></Image>
+              <Image source={require("./assets/actividad2.jpg")} contentFit='contain' style={[globalStyles.fotoCarrusel]}></Image>
+              <Image source={require("./assets/actividad3.jpg")} contentFit='contain' style={[globalStyles.fotoCarrusel]}></Image>
+              <Image source={require("./assets/actividad4.jpg")} contentFit='contain' style={[globalStyles.fotoCarrusel]}></Image>
+              <Image source={require("./assets/actividad5.jpg")} contentFit='contain' style={[globalStyles.fotoCarrusel]}></Image>
+            </ScrollView>
+          </ScrollView>
+
+          
+          
+        </View>
+
+
       </ScrollView>
     </View>
   )
