@@ -7,6 +7,7 @@ const globalStyles = StyleSheet.create({
   },
   contenedorSecundario:{
     flex:1,
+    flexDirection:'column',
     marginHorizontal:10,
     padding:5,
   },
@@ -42,6 +43,22 @@ const globalStyles = StyleSheet.create({
 
     elevation: 5,
   },
+  contenedorFotosAlojamiento:{
+    flex:1,
+    flexDirection:'row',
+    gap:5,
+    justifyContent:'space-between',
+    margin:14,
+  },
+  fotoAlojamiento:{
+    width:"100%",
+    height:"100%",
+  },
+  contenedorAlojamiento:{
+    width:"49%",
+    height:"100%",
+    aspectRatio:1,
+  }
 })
 
 export default globalStyles

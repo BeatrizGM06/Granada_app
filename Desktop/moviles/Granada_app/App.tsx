@@ -41,6 +41,24 @@ export default function App() {
               <Text style={[globalStyles.textoFoto,{color:COLOR_TEXTO_FOTO}]}>El centro</Text>
             </ImageBackground>
 
+            <Text style={[globalStyles.titulo,{color:COLOR_TITULO}]}>Los mejores alojamientos</Text>
+            <View style={[globalStyles.contenedorFotosAlojamiento]}>
+              <View style={[globalStyles.contenedorAlojamiento]}>
+                <Image source={require("./assets/alojamiento1.jpg")} style={[globalStyles.fotoAlojamiento]} contentFit='cover'></Image>
+              </View>
+              <View style={[globalStyles.contenedorAlojamiento]}>
+                <Image source={require("./assets/alojamiento2.jpg")} style={[globalStyles.fotoAlojamiento]} contentFit='cover'></Image>
+              </View>
+            </View>
+            <View style={[globalStyles.contenedorFotosAlojamiento]}>
+              <View style={[globalStyles.contenedorAlojamiento]}>
+                <Image source={require("./assets/alojamiento3.jpg")} style={[globalStyles.fotoAlojamiento]} contentFit='cover'></Image>
+              </View>
+              <View style={[globalStyles.contenedorAlojamiento]}>
+                <Image source={require("./assets/alojamiento4.jpg")} style={[globalStyles.fotoAlojamiento]} contentFit='cover'></Image>
+              </View>
+            </View>
+            
           </ScrollView>
 
           
