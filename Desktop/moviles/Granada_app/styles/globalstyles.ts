@@ -31,7 +31,6 @@ const globalStyles = StyleSheet.create({
     margin:"auto",
     fontSize:48,
     fontFamily:"bebasNeue",
-    backgroundColor:"rgba(0, 0, 0, 0.01)",
 
     shadowColor: "#000",
     shadowOffset: {
